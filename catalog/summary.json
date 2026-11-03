@@ -1,0 +1,76 @@
+{
+  "generated": "2026-10-31T23:17:30Z",
+  "sources": {
+    "dockerhub/ecpe4s": {
+      "expected": 235,
+      "enumerated": 235,
+      "listing_calls": 7,
+      "seconds": 85,
+      "with_ref": 235,
+      "errors": 0
+    },
+    "dockerhub/intel": {
+      "expected": 469,
+      "enumerated": 469,
+      "listing_calls": 219,
+      "seconds": 243,
+      "with_ref": 461,
+      "errors": 0
+    },
+    "dockerhub/rocm": {
+      "expected": 98,
+      "enumerated": 98,
+      "listing_calls": 2,
+      "seconds": 35,
+      "with_ref": 96,
+      "errors": 0
+    },
+    "dockerhub/amdih": {
+      "expected": 38,
+      "enumerated": 38,
+      "listing_calls": 2,
+      "seconds": 14,
+      "with_ref": 36,
+      "errors": 0
+    },
+    "dockerhub/biocontainers": {
+      "expected": 1068,
+      "enumerated": 1068,
+      "listing_calls": 711,
+      "seconds": 628,
+      "with_ref": 1064,
+      "errors": 0
+    },
+    "quay/biocontainers": {
+      "enumerated": 14775,
+      "seconds": 1501,
+      "with_ref": 14743,
+      "errors": 0
+    },
+    "quay/pawsey": {
+      "enumerated": 49,
+      "seconds": 5,
+      "with_ref": 30,
+      "errors": 0
+    },
+    "ngc": {
+      "catalog_total": 1325,
+      "enumerated": 88,
+      "by_source": {
+        "ngc/hpc": 30,
+        "ngc/nvidia-hpcvis": 2,
+        "ngc/nvidia-hpc-label": 56
+      },
+      "with_digest": 71,
+      "seconds": 34,
+      "with_ref": 88,
+      "errors": 17
+    }
+  },
+  "total_rows": 16820,
+  "total_refs": 16736,
+  "rows_without_tags": 67,
+  "anonymous_pull_denied": 17,
+  "errors": 17,
+  "unique_digests": 16720
+}
